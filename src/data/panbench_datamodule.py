@@ -19,7 +19,7 @@ class PanBenchDataModule(LightningDataModule):
 
     def __init__(
         self,
-        data_dir: str = "data/",
+        data_dir: str = "/kaggle/input/panbench",
         train_val_test_split: Tuple[int, int, int] = (4_718, 590, 590),
         batch_size: int = 64,
         num_workers: int = 0,
