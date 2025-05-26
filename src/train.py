@@ -82,7 +82,7 @@ def train(cfg: DictConfig) -> Tuple[Dict[str, Any], Dict[str, Any]]:
 # ✅ Manually load config in Kaggle notebook
 if __name__ == "__main__":
     # Load cmfnet experiment config manually
-    config_path = "../configs/experiment/cmfnet.yaml"  # adjust as needed in Kaggle
+    config_path = "configs/experiment/cmfnet.yaml"  # adjust as needed in Kaggle
     cfg = OmegaConf.load(config_path)
 
     # Optional: compose it with base train config if needed
